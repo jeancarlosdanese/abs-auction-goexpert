@@ -66,7 +66,7 @@ curl -X POST http://localhost:8080/auction \
 ### 📥 2. Consultar os leilões existentes
 
 ```bash
-curl http://localhost:8080/auction
+curl "http://localhost:8080/auction?status=0"
 ```
 
 Você verá algo como:
